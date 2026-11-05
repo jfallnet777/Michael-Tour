@@ -1,0 +1,16 @@
+MICHAEL TOUR · CONTABILIDAD (PWA)
+
+Cómo ponerla en línea (gratis, sin programar):
+1. Entra a https://app.netlify.com/drop
+2. Arrastra la carpeta "michael-tour-pwa" completa.
+3. Netlify te dará un enlace (https://...netlify.app). Ábrelo en el celular.
+
+Cómo instalarla en el celular:
+- Android (Chrome): menú ⋮ → "Instalar aplicación" o "Agregar a la pantalla principal".
+- iPhone (Safari): botón Compartir → "Agregar a inicio".
+
+Importante:
+- Los datos se guardan en el celular donde se usa la app.
+- Usa Ajustes → "Descargar copia" de vez en cuando, y "Restaurar copia" si cambias de celular.
+- Funciona sin internet después de abrirla la primera vez.
+- Para actualizarla, sube de nuevo la carpeta y cambia VERSION en sw.js (por ejemplo mt-v2).
