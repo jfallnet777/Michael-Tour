@@ -12,5 +12,5 @@ Cómo instalarla en el celular:
 Importante:
 - Los datos se guardan en el celular donde se usa la app.
 - Usa Ajustes → "Descargar copia" de vez en cuando, y "Restaurar copia" si cambias de celular.
-- Funciona sin internet después de abrirla la primera vez.
-- Para actualizarla, sube de nuevo la carpeta y cambia VERSION en sw.js (por ejemplo mt-v2).
+- Funciona sin internet después de abrirla la primera vez. Para Excel y PDF se necesita internet la primera vez que se usan; luego quedan guardados.
+- Para actualizarla, sube de nuevo la carpeta y cambia VERSION en sw.js (por ejemplo mt-v13).

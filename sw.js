@@ -1,5 +1,5 @@
 /* Michael Tour · service worker */
-const VERSION = 'mt-v1';
+const VERSION = 'mt-v12';
 const SHELL = [
   './', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png',
@@ -34,8 +34,8 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Fuentes de Google y archivos propios: copia guardada y se actualiza en segundo plano
-  if (url.origin === location.origin || url.host === 'fonts.googleapis.com' || url.host === 'fonts.gstatic.com') {
+  // Fuentes, librerías de Excel/PDF y archivos propios: copia guardada y se actualiza en segundo plano
+  if (url.origin === location.origin || url.host === 'fonts.googleapis.com' || url.host === 'fonts.gstatic.com' || url.host === 'cdnjs.cloudflare.com') {
     e.respondWith(
       caches.open(VERSION).then(async c => {
         const hit = await c.match(req);
