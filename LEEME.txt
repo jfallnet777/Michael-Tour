@@ -1,3 +1,6 @@
+IMPORTANTE (GitHub): todos los archivos van sueltos en la raíz del repositorio,
+incluidas las imágenes. No hace falta carpeta "icons".
+
 MICHAEL TOUR · CONTABILIDAD (PWA)
 
 Cómo ponerla en línea (gratis, sin programar):
@@ -13,7 +16,7 @@ Importante:
 - Los datos se guardan en el celular donde se usa la app.
 - Usa Ajustes → "Descargar copia" de vez en cuando, y "Restaurar copia" si cambias de celular.
 - Funciona sin internet después de abrirla la primera vez. Para Excel y PDF se necesita internet la primera vez que se usan; luego quedan guardados.
-- Para actualizarla, sube de nuevo la carpeta y cambia VERSION en sw.js (por ejemplo mt-v14).
+- Para actualizarla, sube de nuevo la carpeta y cambia VERSION en sw.js (por ejemplo mt-v15).
 
 Contraseña de inicio:
 - Se activa en Ajustes → Contraseña de inicio.
