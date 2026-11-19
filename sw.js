@@ -1,5 +1,5 @@
 /* Michael Tour · service worker */
-const VERSION = 'mt-v12';
+const VERSION = 'mt-v13';
 const SHELL = [
   './', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png',
